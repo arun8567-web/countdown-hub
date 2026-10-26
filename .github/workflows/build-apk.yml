@@ -27,7 +27,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip Countdown_Hub_Phone_Build.zip -d project
+          unzip EventX_Phone_Build_Project.zip -d project
           cd project
           gradle assembleDebug
 
